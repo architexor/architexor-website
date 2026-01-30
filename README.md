@@ -1,6 +1,29 @@
 # Architexor Website
 
+This repository contains the source code for the official Architexor website.
+
+Architexor is a technology company focused on automation solutions for architecture, engineering, and construction (AEC) workflows.
+
 A modern, responsive React.js portfolio website showcasing architectural design, structural engineering, AEC industry services, AutoCAD/Revit plugin development, BIM software development, and web development services.
+
+## Purpose
+
+The website serves as:
+- A public-facing company website
+- An overview of Architexor products and services
+- A contact point for inquiries and partnerships
+
+## Tech Stack
+
+- React
+- HTML5 / CSS3
+- JavaScript
+- Nginx (deployment)
+
+## Development
+
+This repository contains only the website frontend.
+No proprietary business logic, internal systems, or private APIs are included.
 
 ## Features
 
@@ -141,6 +164,11 @@ The contact form currently logs to console. To connect it to a backend:
 - Safari (latest)
 - Edge (latest)
 
+## Contact
+
+Website: https://www.architexor.com  
+Email: contact@architexor.com
+
 ## License
 
-This project is open source and available for personal and commercial use.
+This project is licensed under the MIT License.
