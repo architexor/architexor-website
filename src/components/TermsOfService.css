@@ -1,0 +1,91 @@
+.terms-page {
+  min-height: calc(100vh - 80px);
+  padding: 6rem 2rem 4rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+}
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.terms-header {
+  margin-bottom: 2.5rem;
+}
+
+.terms-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+.terms-content {
+  color: var(--text-dark);
+}
+
+.terms-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.terms-lead {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.terms-section {
+  margin: 2.5rem 0;
+}
+
+.terms-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.terms-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.terms-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.terms-content a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .terms-page {
+    padding: 5rem 1rem 3rem;
+  }
+
+  .terms-title {
+    font-size: 2rem;
+  }
+
+  .terms-lead {
+    font-size: 1.1rem;
+  }
+
+  .terms-heading {
+    font-size: 1.25rem;
+  }
+}
